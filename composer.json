@@ -1,0 +1,19 @@
+{
+    "name": "mu/redis-limiter",
+    "description": "基于Redis的限流器",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mu",
+            "email": "sparkinzy@163.com"
+        }
+    ],
+    "require": {
+        "ext-redis":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mu\\Juyuan\\": "./src"
+        }
+    }
+}
