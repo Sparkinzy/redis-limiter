@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "ext-redis":"*"
+        "ext-redis":"*",
+        "mu/redis-limiter": "^1.0"
     },
     "autoload": {
         "psr-4": {
